@@ -1,0 +1,16 @@
+---
+
+hosts:
+  - host:     "project1-dev"
+    hostname: "10.1.1.1"
+    username: "opsuser"
+    keyfile:  "~/.ssh/keyfile1"
+  - host:     "project1-stage"
+    hostname: "10.1.1.2"
+  - host:     "project1-qa"
+    hostname: "10.1.1.3"
+    username: "mightyops"
+  - host:     "project1-prod"
+    hostname: "10.1.1.4"
+    username: "mightyops"
+    keyfile:  "~/.ssh/supersecretkey"
